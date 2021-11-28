@@ -1,0 +1,42 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-bar a:hover {
+  color: #b3c7cd;
+}
+
+#logoNavBar {
+  height: 4.5rem;
+}
+
+.nav-bar .menuNavBar .menuComponent{
+  border: #4d7b8a;
+  border-right: #4d7b8a;
+  border-left: #4d7b8a;
+  border-width: 1px;
+  border-style: solid;
+}

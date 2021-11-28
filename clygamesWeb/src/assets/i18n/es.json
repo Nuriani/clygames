@@ -1,0 +1,24 @@
+{
+  "Home": {
+    "Nav-Bar": {
+      "Español": "Español",
+      "Ingles": "Inglés"
+    },
+    "Menu": {
+      "Juegos":"Juegos",
+      "About":"Sobre",
+      "Noticias":"Noticias",
+      "Empleo":"Empleo",
+      "Prensa":"Prensa",
+      "Inicio": "Inicio",
+      "Contacto": "Contacto"
+    },
+    "TituloPrincipal": "Esto es la página principal de mi página web",
+    "RealizadoPor": "Realizado por: ",
+    "Juegos": [
+      {
+        "Arre": "Arre Unicornio"
+      }
+    ]
+  }
+}

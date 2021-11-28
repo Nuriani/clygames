@@ -1,0 +1,24 @@
+{
+  "Home": {
+    "Nav-Bar": {
+      "Español": "Spanish",
+      "Ingles": "English"
+    },
+    "Menu": {
+      "Juegos":"Games",
+      "About":"About",
+      "Noticias":"News",
+      "Empleo":"Careers",
+      "Prensa":"Press",
+      "Inicio": "Index",
+      "Contacto": "Contact"
+    },
+    "TituloPrincipal": "Main Page from my web",
+    "RealizadoPor": "Made by: ",
+    "Juegos": [
+      {
+        "Arre": "Arre Unicornio"
+      }
+    ]
+  }
+}

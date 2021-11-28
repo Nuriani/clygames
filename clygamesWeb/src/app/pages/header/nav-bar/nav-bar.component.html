@@ -1,0 +1,51 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar><img id="logoNavBar" src="../../../assets/img/Logo_CLYGAMES.png" alt="Logo de CLYGAMES" title="CLYGAMES"></mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#" [routerLink]="'/juegos'" class="menuComponent">{{'Home.Menu.Juegos' | translate }}</a>
+      <a mat-list-item href="#" [routerLink]="'/about'" class="menuComponent">{{'Home.Menu.About' | translate }}</a>
+      <a mat-list-item href="#" [routerLink]="'/noticias'" class="menuComponent">{{'Home.Menu.Noticias' | translate }} </a>
+      <a mat-list-item href="#" [routerLink]="'/empleo'" class="menuComponent">{{'Home.Menu.Empleo' | translate }} </a>
+      <a mat-list-item href="#" [routerLink]="'/prensa'" class="menuComponent">{{'Home.Menu.Contacto' | translate }} </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" class="nav-bar">
+      <mat-toolbar-row>
+        <mat-label><img id="logoNavBar" src="../../../assets/img/Logo_CLYGAMES.png" alt="Logo de CLYGAMES" title="CLYGAMES"></mat-label>
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <div class="menuNavBar">
+        <a mat-button [routerLink]="'/juegos'" class="menuComponent"> {{'Home.Menu.Juegos' | translate }} </a>
+        <a mat-button [routerLink]="'/about'" class="menuComponent"> {{'Home.Menu.About' | translate }} </a>
+        <a mat-button [routerLink]="'/noticias'" class="menuComponent"> {{'Home.Menu.Noticias' | translate }} </a>
+        <a mat-button [routerLink]="'/empleo'" class="menuComponent"> {{'Home.Menu.Empleo' | translate }} </a>
+        <a mat-button [routerLink]="'/prensa'" class="menuComponent"> {{'Home.Menu.Prensa' | translate }} </a>
+        <a mat-button [routerLink]="'/contacto'" class="menuComponent"> {{'Home.Menu.Contacto' | translate }} </a>
+      </div>
+
+      <ng-container>
+        <button mat-button [matMenuTriggerFor]="menu">
+          <mat-icon>language</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <div mat-menu-item id="en" href="#" (click)="onEnviarIdioma($event)">{{'Home.Nav-Bar.Ingles' | translate }}
+          </div>
+          <div mat-menu-item id="es" href="#" (click)="onEnviarIdioma($event)">{{'Home.Nav-Bar.Español' | translate }}
+          </div>
+        </mat-menu>
+      </ng-container>
+    </mat-toolbar-row>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>
