@@ -97,3 +97,48 @@ $my-warn-color: (
       A700 : #000000,
   )
 );
+
+:root {
+  --primary50 : #e7e1ed;
+  --primary100 : #c3b3d1;
+  --primary200 : #9c81b2;
+  --primary300 : #744e93;
+  --primary400 : #56287c;
+  --primary500 : #380265;
+  --primary600 : #32025d;
+  --primary700 : #2b0153;
+  --primary800 : #240149;
+  --primary900 : #170137;
+  --primaryA100 : #9a6eff;
+  --primaryA200 : #763bff;
+  --primaryA400 : #5208ff;
+  --primaryA700 : #4700ee;
+  --accent50 : #ebeff4;
+  --accent100 : #ced6e3;
+  --accent200 : #aebbd0;
+  --accent300 : #8da0bd;
+  --accent400 : #748baf;
+  --accent500 : #5c77a1;
+  --accent600 : #546f99;
+  --accent700 : #4a648f;
+  --accent800 : #415a85;
+  --accent900 : #304774;
+  --accentA100 : #bed3ff;
+  --accentA200 : #8bb1ff;
+  --accentA400 : #588eff;
+  --accentA700 : #3f7dff;
+  --warn50 : #fbf0e9;
+  --warn100 : #f5dac8;
+  --warn200 : #efc1a3;
+  --warn300 : #e9a87e;
+  --warn400 : #e49663;
+  --warn500 : #df8347;
+  --warn600 : #db7b40;
+  --warn700 : #d77037;
+  --warn800 : #d2662f;
+  --warn900 : #ca5320;
+  --warnA100 : #ffffff;
+  --warnA200 : #ffdccf;
+  --warnA400 : #ffb79c;
+  --warnA700 : #ffa583;
+}

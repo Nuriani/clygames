@@ -19,9 +19,11 @@ import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatTabsModule } from '@angular/material/tabs';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -47,13 +49,15 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     HttpClientModule,
     MatRadioModule,
     MatSliderModule,
+    MatTabsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: httpTranslateLoader,
         deps: [HttpClient]
       }
-    })
+    }),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

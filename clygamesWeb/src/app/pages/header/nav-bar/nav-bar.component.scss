@@ -1,5 +1,11 @@
+@import "../../../../assets/estilos/material-personalizado.scss";
+
 .sidenav-container {
   height: 100%;
+}
+
+#logoNavBar {
+  height: 4.5rem;
 }
 
 .sidenav {
@@ -10,33 +16,79 @@
   background: inherit;
 }
 
-.mat-toolbar.mat-primary {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
 .nav-bar {
   position: fixed;
   top: 0;
   z-index: 99;
 }
+
 .spacer {
   flex: 1 1 auto;
 }
 
-.nav-bar a:hover {
-  color: #b3c7cd;
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--primary50);
 }
 
-#logoNavBar {
-  height: 4.5rem;
+.nav-bar a:hover,
+.sidenav-container a.menuComponent:hover,
+.nav-bar .icon-navBar:hover {
+  color: var(--primary300);
+  cursor: pointer;
+  pointer-events: auto;
+  background-color: none;
 }
 
-.nav-bar .menuNavBar .menuComponent{
-  border: #4d7b8a;
-  border-right: #4d7b8a;
-  border-left: #4d7b8a;
+.nav-bar .menuNavBar .menuComponent {
+  border: var(--primary50);
+  border-right: var(--primary200);
+  border-left: var(--primary200);
   border-width: 1px;
   border-style: solid;
+  border-radius: 0;
+}
+
+.sidenav-container .menuComponent {
+  font-family: "RailroadGothic";
+  font-size: 20px;
+  color: var(--primary400);
+}
+/* ICONOS */
+.nav-bar .icon-navBar {
+  color: var(--primary400);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+/* MENU HORIZONTAL */
+.sidenav-container .mat-toolbar-row {
+  justify-content: space-between;
+}
+
+/*MENU VERTICAL*/
+mat-nav-list .mat-list-item-content {
+  justify-content: center !important;
+}
+
+mat-sidenav {
+  background-color: var(--primary50);
+}
+
+mat-sidenav #logoNavBar {
+  margin-top: 1rem;
+}
+
+//************************ MEDIA QUERIES **************//
+@media (max-width: 960px) {
+  .menuNavBar {
+    display: none;
+  }
+}
+@media (min-width: 961px) {
+  .sidenav {
+    display: none;
+  }
 }

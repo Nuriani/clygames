@@ -33,6 +33,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/assets/estilos/custom-theme.scss",
+              "src/assets/estilos/material-personalizado.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],

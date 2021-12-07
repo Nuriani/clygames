@@ -22,7 +22,7 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon" class="icon-navBar">menu</mat-icon>
       </button>
       <div class="menuNavBar">
         <a mat-button [routerLink]="'/juegos'" class="menuComponent"> {{'Home.Menu.Juegos' | translate }} </a>
@@ -35,9 +35,9 @@
 
       <ng-container>
         <button mat-button [matMenuTriggerFor]="menu">
-          <mat-icon>language</mat-icon>
+          <mat-icon class="icon-navBar">language</mat-icon>
         </button>
-        <mat-menu #menu="matMenu">
+        <mat-menu #menu="matMenu" class="menuIdioma">
           <div mat-menu-item id="en" href="#" (click)="onEnviarIdioma($event)">{{'Home.Nav-Bar.Ingles' | translate }}
           </div>
           <div mat-menu-item id="es" href="#" (click)="onEnviarIdioma($event)">{{'Home.Nav-Bar.Español' | translate }}
