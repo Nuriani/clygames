@@ -1,7 +1,20 @@
 @import "../../../assets/estilos/material-personalizado.scss";
 
 footer {
-  height: 15rem;
   background-color: var(--primary900);
 }
 
+footer fa-icon {
+  font-size: 2rem;
+  color: var(--primary50);
+}
+
+footer fa-icon:hover {
+  color: var(--primary300);
+}
+
+footer .autoria,
+footer .autoria a {
+  color: var(--primary300);
+  text-decoration: none;
+}

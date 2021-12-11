@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +9,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   title = 'clygamesWeb';
   private idiomas: Array<string>;
-  faCoffee = faCoffee;
 
   constructor(public translate: TranslateService) {
     this.idiomas = ['es', 'en'];

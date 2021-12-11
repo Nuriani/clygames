@@ -24,13 +24,23 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NoticiasComponent } from './pages/noticias/noticias.component';
+import { PrensaComponent } from './pages/prensa/prensa.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavBarComponent
+    NavBarComponent,
+    AboutComponent,
+    HomeComponent,
+    NoticiasComponent,
+    PrensaComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
