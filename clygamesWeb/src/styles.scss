@@ -18,3 +18,23 @@ body {
 a {
   cursor: pointer;
 }
+
+.estiloGeneral {
+  background-color: var(--primary300);
+  color: var(--primary100);
+}
+
+.container-fluid {
+  padding: 0;
+}
+/*Breadcrumbs*/
+.breadcrumb {
+  width: 100%;
+ background-color: var(--primary200);
+ padding: 1rem;
+}
+
+.breadcrumb-item.active {
+  color: var(--accentA100);
+}
+/*Fin Breadcrumbs*/

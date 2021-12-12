@@ -1,5 +1,6 @@
 {
   "Home": {
+    "Home": "Home",
     "Nav-Bar": {
       "Español": "Spanish",
       "Ingles": "English"
@@ -20,5 +21,12 @@
         "Arre": "Arre Unicornio"
       }
     ]
-  }
+  },
+  "About" :
+      {
+        "titulo":"¿QUIÉNES SOMOS?",
+        "desc":"Clygames es un estudio de nueva creación, se formó en 2020 con un proyecto demasiado ambicioso para un Trabajo de Fin de Grado, pero tuvimos que cambiar el rumbo del estudio para lanzar un producto que pudiera gustar al mercado actual de videojuegos. En 2021, tras graduarnos y con la ayuda de gente apasionada a los videojuegos, hemos querido dar rienda suelta a nuestra imaginación y nos hemos volcado en lanzar nuestro primer videojuego de venta al público, \"!Arre Unicornio!\", para ver si con un poco de suerte podemos dedicarnos a lo que nos apasiona, desarrollar videojuegos. Nuestro principal enfoque es realizar videojuegos para PC y consolas con los que poder disfrutar de ratos divertidos con los amigos.",
+        "equipo": "Our Team"
+      }
+
 }

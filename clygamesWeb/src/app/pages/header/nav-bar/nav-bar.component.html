@@ -3,7 +3,11 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-    <mat-toolbar><img id="logoNavBar" src="../../../assets/img/Logo_CLYGAMES.png" alt="Logo de CLYGAMES" title="CLYGAMES"></mat-toolbar>
+    <mat-toolbar>
+      <a href="#" [routerLink]="'/home'">
+        <img id="logoNavBar" src="../../../assets/img/Logo_CLYGAMES.png" alt="Logo de CLYGAMES" title="CLYGAMES">
+      </a>
+    </mat-toolbar>
     <mat-nav-list>
       <a mat-list-item href="#" [routerLink]="'/juegos'" class="menuComponent">{{'Home.Menu.Juegos' | translate }}</a>
       <a mat-list-item href="#" [routerLink]="'/about'" class="menuComponent">{{'Home.Menu.About' | translate }}</a>
@@ -47,5 +51,8 @@
     </mat-toolbar-row>
     </mat-toolbar>
     <!-- Add Content Here -->
+    <div class="container-fluid estiloGeneral">
+      <router-outlet></router-outlet>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
