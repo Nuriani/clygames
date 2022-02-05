@@ -5,6 +5,21 @@
   src: url(assets/Fuentes/RailroadGothicCC.otf) format("opentype");
 }
 
+@font-face {
+  font-family: Contender;
+  src: url(assets/Fuentes/ContenderFreeVersion.otf) format("opentype");
+}
+
+@font-face {
+  font-family: BadBehaviour;
+  src: url(assets/Fuentes/Bad_Behaviour.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: ItalianRevolution;
+  src: url(assets/Fuentes/ItalianRevolution.ttf) format("opentype");
+}
+
 html,
 body {
   height: 100%;
@@ -13,8 +28,12 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+
 }
 
+p {
+  font-size: 16px;
+}
 a {
   cursor: pointer;
 }
@@ -27,6 +46,11 @@ a {
 .container-fluid {
   padding: 0;
 }
+
+.mat-drawer-content {
+  overflow-x: hidden !important;
+}
+
 /*Breadcrumbs*/
 .breadcrumb {
   width: 100%;

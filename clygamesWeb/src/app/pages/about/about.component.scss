@@ -1,0 +1,72 @@
+.persona-img {
+  border-radius: 100px;
+  height: 12rem;
+  background-color: var(--accent50);
+}
+
+#somos {
+  padding: 4rem;
+  background-color: var(--primary50);
+  color: var(--primary400);
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.somosTitulo,
+.tituloEquipo {
+  font-family: "ItalianRevolution";
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+}
+
+.tituloEquipo {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  color: var(--primary500);
+  margin: 0;
+  background: linear-gradient(var(--primary300), var(--primary100));
+}
+
+.somosDesc {
+  column-count: 2;
+  column-gap: 2rem;
+  text-align: justify;
+}
+
+/* Persona Equipo */
+.persona-titulo {
+  font-family: "RailroadGothic";
+  font-size: 1.5rem;
+  padding-bottom: 0.7rem;
+  letter-spacing: 3px;
+  color: var(--warn200);
+}
+
+.persona-text {
+  padding-top: 2.5rem;
+}
+
+.iconEquipo fa-icon {
+  font-size: 2rem;
+  color: var(--accentA100);
+}
+
+.iconEquipo fa-icon:hover {
+  color: var(--accentA200);
+}
+
+.persona-team-dcha {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(to right, var(--primary600), var(--primary300));
+}
+
+.persona-team-izq {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(to right, var(--primary300), var(--primary600));
+}
+/* Fin Persona Equipo */

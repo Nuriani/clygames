@@ -6,27 +6,45 @@
       "Ingles": "English"
     },
     "Menu": {
-      "Juegos":"Games",
-      "About":"About",
-      "Noticias":"News",
-      "Empleo":"Careers",
-      "Prensa":"Press",
+      "Juegos": "Games",
+      "About": "About",
+      "Noticias": "News",
+      "Empleo": "Careers",
+      "Prensa": "Press",
       "Inicio": "Index",
       "Contacto": "Contact"
     },
     "TituloPrincipal": "Main Page from my web",
-    "RealizadoPor": "Made by: ",
-    "Juegos": [
-      {
-        "Arre": "Arre Unicornio"
-      }
-    ]
+    "RealizadoPor": "Made by: "
   },
-  "About" :
-      {
-        "titulo":"¿QUIÉNES SOMOS?",
-        "desc":"Clygames es un estudio de nueva creación, se formó en 2020 con un proyecto demasiado ambicioso para un Trabajo de Fin de Grado, pero tuvimos que cambiar el rumbo del estudio para lanzar un producto que pudiera gustar al mercado actual de videojuegos. En 2021, tras graduarnos y con la ayuda de gente apasionada a los videojuegos, hemos querido dar rienda suelta a nuestra imaginación y nos hemos volcado en lanzar nuestro primer videojuego de venta al público, \"!Arre Unicornio!\", para ver si con un poco de suerte podemos dedicarnos a lo que nos apasiona, desarrollar videojuegos. Nuestro principal enfoque es realizar videojuegos para PC y consolas con los que poder disfrutar de ratos divertidos con los amigos.",
-        "equipo": "Our Team"
-      }
-
+  "About": {
+    "titulo": "About us",
+    "desc": "Clygames es un estudio de nueva creación, se formó en 2020 con un proyecto demasiado ambicioso para un Trabajo de Fin de Grado, pero tuvimos que cambiar el rumbo del estudio para lanzar un producto que pudiera gustar al mercado actual de videojuegos. En 2021, tras graduarnos y con la ayuda de gente apasionada a los videojuegos, hemos querido dar rienda suelta a nuestra imaginación y nos hemos volcado en lanzar nuestro primer videojuego de venta al público, \"!Arre Unicornio!\", para ver si con un poco de suerte podemos dedicarnos a lo que nos apasiona, desarrollar videojuegos. Nuestro principal enfoque es realizar videojuegos para PC y consolas con los que poder disfrutar de ratos divertidos con los amigos.",
+    "equipo": "Our Team"
+  },
+  "Juegos": {
+    "Arre": "¡Arre Unicornio!"
+  },
+  "arreUnicornio": {
+    "precioArre": "$4,95 / €4,95",
+    "plataformas": "Plataformas",
+    "fechaArre": "25 de febrero de 2022 (Acceso anticipado de Steam)",
+    "resumen": "Un nuevo concepto del juego de mesa ¡Arre Unicornio! ahora llevado a la locura que puede dar en formato videojuego. ¡Arre Unicornio! es un videojuego multijugador en línea de 2 a 8 jugadores. Es un frenético party game ...",
+    "descArre": "Un nuevo concepto del juego de mesa ¡Arre Unicornio! ahora llevado a la locura que puede dar en formato videojuego.\n        ¡Arre Unicornio! es un videojuego multijugador en línea de 2 a 8 jugadores. Es un frenético party game ",
+    "caracteristica1": "4 tipos de personajes: Enfermos, Doctores, Director, Trabajadores.",
+    "caracteristica2": "Distintos tipos de cartas: Personajes, Objetos de fuga, objetos cotidianos, enfermedades mentales, tratamientos chungos, comodines.",
+    "caracteristica3": "10 cartas de enfermedad mental diferentes: con efectos distintos para favorecer o entorpecer al resto de jugadores o a uno mismo.",
+    "caracteristica4": "10 cartas de tratamiento chungo diferentes: cada una con su propia animación y efecto de sonido.",
+    "caracteristica5": "Escenario 3D ambientado en un manicomio.",
+    "caracteristica6": "Personajes 3D customizables."
+  },
+  "Prensa": {
+    "Presskit": "Presskit",
+    "desarrollador": "Desarrollador",
+    "ubicacion": "Ubicación",
+    "sitioWeb": "Sitio web",
+    "precioNormal": "Precio normal",
+    "steam": "Steam",
+    "lanzamiento": "Fechas de lanzamiento"
+  }
 }

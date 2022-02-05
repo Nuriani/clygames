@@ -31,6 +31,7 @@ import { PrensaComponent } from './pages/prensa/prensa.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { JuegosComponent } from './pages/juegos/juegos.component';
 import { EmpeloComponent } from './pages/empelo/empelo.component';
+import { PrensaArreComponent } from './pages/prensa/prensa-arre/prensa-arre.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { EmpeloComponent } from './pages/empelo/empelo.component';
     PrensaComponent,
     ContactoComponent,
     JuegosComponent,
-    EmpeloComponent
+    EmpeloComponent,
+    PrensaArreComponent
   ],
   imports: [
     BrowserModule,
