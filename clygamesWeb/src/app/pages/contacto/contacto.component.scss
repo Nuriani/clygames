@@ -1,0 +1,72 @@
+.contac {
+  padding: 3rem;
+  min-height: 100vh;
+  background-image: linear-gradient(var(--primary900), transparent);
+}
+
+.contac .contacTitulo {
+  font-family: "ItalianRevolution";
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+  color: var(--primary300);
+}
+
+.contac .imgContac {
+  height: 40vh;
+}
+
+.contac .imgContac img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.contac fa-icon {
+  font-size: 2rem;
+  color: var(--primary100);
+}
+
+.contac #contenedorHablemos {
+  padding: 4rem;
+  background-color: var(--primary50);
+  color: var(--primary400);
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.contac .lineaInfContac {
+  margin-top: 2rem;
+
+}
+
+.contac .lineaInfContac h2 {
+  font-family: "RailroadGothic";
+  font-size: 20px;
+}
+
+.contac .separadores {
+  border-right: solid var(--primary200) 1px;
+  border-left: solid var(--primary200) 1px;
+}
+
+.contac .cuerpoContact {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.contac .cuerpoContact span{
+  font-size: 18px;
+}
+
+@media (max-width: 960px) {
+  .contac .imgContac img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+}

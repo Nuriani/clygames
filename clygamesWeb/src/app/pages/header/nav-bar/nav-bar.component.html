@@ -9,11 +9,26 @@
       </a>
     </mat-toolbar>
     <mat-nav-list>
+      <a mat-list-item href="#" [routerLink]="'/home'" class="menuComponent"> {{'Home.Home' | translate }} </a>
       <a mat-list-item href="#" [routerLink]="'/juegos'" class="menuComponent">{{'Home.Menu.Juegos' | translate }}</a>
       <a mat-list-item href="#" [routerLink]="'/about'" class="menuComponent">{{'Home.Menu.About' | translate }}</a>
       <a mat-list-item href="#" [routerLink]="'/noticias'" class="menuComponent">{{'Home.Menu.Noticias' | translate }} </a>
       <a mat-list-item href="#" [routerLink]="'/empleo'" class="menuComponent">{{'Home.Menu.Empleo' | translate }} </a>
       <a mat-list-item href="#" [routerLink]="'/prensa'" class="menuComponent">{{'Home.Menu.Contacto' | translate }} </a>
+      <!-- Steam -->
+      <a class="p-3" href="https://store.steampowered.com/developer/Clygames" role="button" target="_blank">
+        <fa-icon [icon]="faSteam"></fa-icon>
+      </a>
+
+      <!-- Discord -->
+      <a class="p-3" href="https://discord.gg/Z8V7s3Zgwt" role="button" target="_blank">
+        <fa-icon [icon]="faDiscord"></fa-icon>
+      </a>
+
+      <!-- Twitter -->
+      <a class="p-3" href="https://twitter.com/clygames_" role="button" target="_blank">
+        <fa-icon [icon]="faTwitter"></fa-icon>
+      </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -29,12 +44,27 @@
         <mat-icon aria-label="Side nav toggle icon" class="icon-navBar">menu</mat-icon>
       </button>
       <div class="menuNavBar">
+        <a mat-button [routerLink]="'/home'" class="menuComponent"> {{'Home.Home' | translate }} </a>
         <a mat-button [routerLink]="'/juegos'" class="menuComponent"> {{'Home.Menu.Juegos' | translate }} </a>
         <a mat-button [routerLink]="'/about'" class="menuComponent"> {{'Home.Menu.About' | translate }} </a>
         <a mat-button [routerLink]="'/noticias'" class="menuComponent"> {{'Home.Menu.Noticias' | translate }} </a>
         <a mat-button [routerLink]="'/empleo'" class="menuComponent"> {{'Home.Menu.Empleo' | translate }} </a>
         <a mat-button [routerLink]="'/prensa'" class="menuComponent"> {{'Home.Menu.Prensa' | translate }} </a>
         <a mat-button [routerLink]="'/contacto'" class="menuComponent"> {{'Home.Menu.Contacto' | translate }} </a>
+        <!-- Steam -->
+        <a class="p-3" href="https://store.steampowered.com/developer/Clygames" role="button" target="_blank">
+          <fa-icon [icon]="faSteam"></fa-icon>
+        </a>
+
+        <!-- Discord -->
+        <a class="p-3" href="https://discord.gg/Z8V7s3Zgwt" role="button" target="_blank">
+          <fa-icon [icon]="faDiscord"></fa-icon>
+        </a>
+
+        <!-- Twitter -->
+        <a class="p-3" href="https://twitter.com/clygames_" role="button" target="_blank">
+          <fa-icon [icon]="faTwitter"></fa-icon>
+        </a>
       </div>
 
       <ng-container>

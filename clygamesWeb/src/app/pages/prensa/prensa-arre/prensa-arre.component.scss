@@ -1,0 +1,49 @@
+.prensaArre {
+  min-height: 100vh;
+  padding: 3rem;
+  background-image: linear-gradient(var(--primary50), transparent);
+}
+
+.prensaArre .pressSeccion {
+  font-family: "ItalianRevolution";
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+  color: var(--primary500);
+}
+
+.prensaArre .pressSeccion.espacio {
+  margin-top: 4rem;
+}
+
+.prensaArre .pressTitulo {
+  font-family: "RailroadGothic";
+  font-size: 20px;
+  color: var(--primary400);
+}
+
+.prensaArre .pressCuerpo {
+  font-weight: 600;
+  color: var(--primary400);
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
+.prensaArre .pressCuerpo a{
+  font-weight: 600;
+  color: var(--primaryA700);
+  text-decoration: none;
+}
+
+.prensaArre .pressCuerpo a:hover{
+  font-weight: 600;
+  color: var(--primaryA100);
+}
+
+.prensaArre .pressCuerpo ul li{
+  line-height: 1.7rem;
+}
+ .prensaArre .linea{
+  margin-bottom: 1rem;
+ }

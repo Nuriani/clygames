@@ -6,17 +6,21 @@
   </ol>
 </nav>-->
 
-<div id="somos">
-  <div class="row">
-    <h1 class="text-center somosTitulo">
-      {{ "About.titulo" | translate }}
-    </h1>
-    <p class="somosDesc">
-      {{ "About.desc" | translate }}
-    </p>
+<div class="logoAbout">
+  <img src="./../../../assets/img/Logo_CLYGAMES_negativo.png" alt="logo CLYGAMES">
+</div>
+<div class="contenedorAboutUs">
+  <div id="somos">
+    <div class="row">
+      <h1 class="text-center somosTitulo">
+        {{ "About.titulo" | translate }}
+      </h1>
+      <p class="somosDesc">
+        {{ "About.desc" | translate }}
+      </p>
+    </div>
   </div>
 </div>
-
 <div class="team">
   <div class="row ">
     <h1 class="text-center tituloEquipo">
@@ -89,18 +93,18 @@
     <div col-6>
       <div class="row">
         <div class="col-4 text-end">
-          <img src="../../../assets/img/team/loren.jpg" class="persona-img" alt="Foto de Lorenzo">
+          <img src="../../../assets/img/team/Patient2Texture.png" class="persona-img" alt="Foto de Nuria">
         </div>
         <div class="col-8 text-start">
 
           <div class="persona-body">
             <div class="persona-text">
-            <div class="persona-titulo">Lorenzo Marfil</div>
+            <div class="persona-titulo">Ivan Jiménez</div>
               <p>
-                Concept Artist
+                Music and SFX
               </p>
               <!-- Linkedin -->
-              <a class="iconEquipo" href="#" role="button"
+              <a class="iconEquipo" href="https://www.linkedin.com/in/ivan-jimenez-fernandez-9b417a17b/" role="button"
                 target="_blank">
                 <fa-icon [icon]="faLinkedin"></fa-icon>
               </a>
@@ -195,6 +199,35 @@
         </div>
         <div class="col-4 text-start">
           <img src="../../../assets/img/team/Patient4Texture.png" class="persona-img" alt="Foto de Francisco">
+        </div>
+      </div>
+    </div>
+    <div col-6></div>
+  </div>
+
+  <!--componete equipo -->
+  <div class="persona-team-dcha row">
+    <div col-6>
+      <div class="row">
+        <div class="col-4 text-end">
+          <img src="../../../assets/img/team/loren.jpg" class="persona-img" alt="Foto de Lorenzo">
+        </div>
+        <div class="col-8 text-start">
+
+          <div class="persona-body">
+            <div class="persona-text">
+            <div class="persona-titulo">Lorenzo Marfil</div>
+              <p>
+                Concept Artist
+              </p>
+              <!-- Linkedin -->
+              <a class="iconEquipo" href="#" role="button"
+                target="_blank">
+                <fa-icon [icon]="faLinkedin"></fa-icon>
+              </a>
+            </div>
+            <a href="#" class=""></a>
+          </div>
         </div>
       </div>
     </div>

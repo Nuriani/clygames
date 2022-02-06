@@ -1,3 +1,13 @@
+.logoAbout{
+  height: 40vh;
+  background-color: var(--primary900);
+
+}
+.logoAbout img{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
 .persona-img {
   border-radius: 100px;
   height: 12rem;
@@ -11,9 +21,11 @@
   border-radius: 50px;
   width: 70%;
   margin: auto;
-  margin-top: 3rem;
 }
 
+.contenedorAboutUs {
+  background-image: linear-gradient(var(--primary900), transparent);
+}
 .somosTitulo,
 .tituloEquipo {
   font-family: "ItalianRevolution";
@@ -70,3 +82,9 @@
   background: linear-gradient(to right, var(--primary300), var(--primary600));
 }
 /* Fin Persona Equipo */
+.mat-drawer-content .mat-sidenav-content{
+  width:100%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+
+}

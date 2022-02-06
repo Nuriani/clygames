@@ -1,45 +1,65 @@
 <!--<div class="estiloGeneral">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item active" aria-current="page">{{'Home.Menu.Empleo' | translate }}</li>
+      <li class="breadcrumb-item active" aria-current="page">{{'Home.Menu.Contacto' | translate }}</li>
     </ol>
   </nav>
 </div>-->
+<div class="contac">
+  <div class="row" id="contactTitulo">
+    <h1 class="contacTitulo text-center">
+      {{'Home.Menu.Contacto' | translate }}
+    </h1>
+  </div>
+  <div id="contenedorHablemos">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 text-center contacTitulo">
+        <img src="../../../assets/img/lets_talk.png" alt="icon contacto">
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="row lineaInfContac">
+          <h2>
+            {{ "Contacto.pregunta" | translate }}
+          </h2>
+          <h1 class="contacTitulo">
+            {{ "Contacto.hablemos" | translate }}
+          </h1>
+          <span class="cuerpoContact">
+            <span>
+              {{ "Contacto.cuerpo" | translate }}
+            </span>
+          </span>
+          <span class="cuerpoContact">
+            {{ "Contacto.errores" | translate }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row lineaInfContac">
+    <!-- Start contact icon column -->
+    <div class="col-sm-12 col-md-5 text-end">
+      <div class="contact-icon ">
+        <div class="single-icon">
+          <fa-icon [icon]="faEnvelope"></fa-icon>
+          <h2>
+            Email: info.clygames@gmail.com<br>
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-0 col-md-2 text-center separadores">
 
-<div class="row">
-  <!-- Start contact icon column -->
-  <div class="col-md-4">
-    <div class="contact-icon text-center">
-      <div class="single-icon">
-        <i class="bi bi-phone"></i>
-        <p>
-          Call: +1 5589 55488 55<br>
-          <span>Monday-Friday (9am-5pm)</span>
-        </p>
-      </div>
     </div>
-  </div>
-  <!-- Start contact icon column -->
-  <div class="col-md-4">
-    <div class="contact-icon text-center">
-      <div class="single-icon">
-        <i class="bi bi-envelope"></i>
-        <p>
-          Email: info@example.com<br>
-          <span>Web: www.example.com</span>
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- Start contact icon column -->
-  <div class="col-md-4">
-    <div class="contact-icon text-center">
-      <div class="single-icon">
-        <i class="bi bi-geo-alt"></i>
-        <p>
-          Location: A108 Adam Street<br>
-          <span>NY 535022, USA</span>
-        </p>
+    <!-- Start contact icon column -->
+    <div class="col-sm-12 col-md-5 text-start">
+      <div class="contact-icon">
+        <div class="single-icon">
+          <fa-icon [icon]="faMapMarkerAlt"></fa-icon>
+          <h2>
+            {{ "Contacto.direccion" | translate }} Barcelona, {{ "Contacto.spain" | translate }}
+          </h2>
+        </div>
       </div>
     </div>
   </div>

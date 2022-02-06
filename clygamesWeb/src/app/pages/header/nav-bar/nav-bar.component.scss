@@ -81,6 +81,24 @@ mat-sidenav #logoNavBar {
   margin-top: 1rem;
 }
 
+/* ICONOS REDES */
+.sidenav-container fa-icon,
+mat-sidenav fa-icon fa-icon:hover{
+  font-size: 1.5rem;
+  color: var(--primary400);
+}
+.sidenav-container fa-icon:hover,
+mat-sidenav fa-icon:hover {
+  color: var(--primary300);
+}
+.sidenav-container .autoria,
+.sidenav-container .autoria a,
+mat-sidenav .autoria,
+mat-sidenav .autoria a {
+  color: var(--primary300);
+  text-decoration: none;
+}
+
 //************************ MEDIA QUERIES **************//
 @media (max-width: 960px) {
   .menuNavBar {

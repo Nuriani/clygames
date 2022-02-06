@@ -1,6 +1,6 @@
 {
   "Home": {
-    "Home": "Home",
+    "Home": "Inicio",
     "Nav-Bar": {
       "Español": "Español",
       "Ingles": "Inglés"
@@ -30,7 +30,7 @@
     "plataformas": "Plataformas",
     "fechaArre": "25 de febrero de 2022 (Acceso anticipado de Steam)",
     "resumen": "Un nuevo concepto del juego de mesa ¡Arre Unicornio! ahora llevado a la locura que puede dar en formato videojuego. ¡Arre Unicornio! es un videojuego multijugador en línea de 2 a 8 jugadores. Es un frenético party game ...",
-    "descArre": "Un nuevo concepto del juego de mesa ¡Arre Unicornio! ahora llevado a la locura que puede dar en formato videojuego.\n        ¡Arre Unicornio! es un videojuego multijugador en línea de 2 a 8 jugadores. Es un frenético party game ",
+    "descArre": "Un nuevo concepto del juego de mesa ¡Arre Unicornio! ahora llevado a la locura que puede dar en formato videojuego.\n¡Arre Unicornio! es un videojuego multijugador en línea de 2 a 8 jugadores. Es un frenético party game ambientado en un manicomio. Mezcla mecánicas de point and click y uso de cartas. La estrategia en tiempo real es vital para ganar ya que la agilidad mental y la capacidad de reacción se pondrán a prueba para tener alguna oportunidad de ganar en este juego. \n\nEn el manicomio de ¡Arre Unicornio! nada es lo que parece. Hay distintas formas de ganar dependiendo de la carta de rol que se juegue en ese momento.\n\nLos enfermos mentales intentarán escapar del manicomio, los doctores intentarán apresar a todos los enfermos mentales para tenerlos bien controlados, y el resto del personal del manicomio tienen problemas de existencialismo. Cada jugador con su propio objetivo hasta que cambia de bando.\n\nPero para tener alguna oportunidad de ganar hay que moverse rápido, ser muy avispado y estar atento a muchas cosas mientras el resto de jugadores te harán volverte loco con un arsenal de enfermedades y  tratamientos chungos que pueden lanzarte, entre otras cosas. \n\n¡Ánimo y no pierdas la cabeza en el intento!",
     "caracteristica1": "4 tipos de personajes: Enfermos, Doctores, Director, Trabajadores.",
     "caracteristica2": "Distintos tipos de cartas: Personajes, Objetos de fuga, objetos cotidianos, enfermedades mentales, tratamientos chungos, comodines.",
     "caracteristica3": "10 cartas de enfermedad mental diferentes: con efectos distintos para favorecer o entorpecer al resto de jugadores o a uno mismo.",
@@ -39,12 +39,27 @@
     "caracteristica6": "Personajes 3D customizables."
   },
   "Prensa": {
-    "Presskit": "Presskit",
+    "Presskit": "Prensa",
     "desarrollador": "Desarrollador",
     "ubicacion": "Ubicación",
     "sitioWeb": "Sitio web",
     "precioNormal": "Precio normal",
+    "plataforma":"Plataformas:",
     "steam": "Steam",
-    "lanzamiento": "Fechas de lanzamiento"
+    "lanzamiento": "Fechas de lanzamiento",
+    "fact":"FACTSHEET",
+    "desc":"DESCRIPCIÓN",
+    "caracteristicas": "CARACTERÍSTICAS"
+  },
+  "General": {
+    "construccion": "Página en Construcción"
+  },
+  "Contacto": {
+    "direccion" : "Dirección:",
+    "spain": "España",
+    "pregunta":"¿NECESITA PONERSE EN CONTACTO?",
+    "hablemos": "HABLEMOS",
+    "cuerpo":"Cualquier cosa que tenga que decir, nos encantaría saber de usted.    \nNegocios, prensa, soporte o simplemente para saludar, consulte los enlaces a continuación.",
+    "errores":"¿Has experimentado un error en nuestros juegos? \nRepórtalo en nuestro email."
   }
 }

@@ -1,3 +1,16 @@
+.prensa {
+  min-height: 100vh;
+  padding-top: 3rem;
+  background-image: linear-gradient(var(--primary50), transparent);
+}
+
+.prensaTitulo {
+  font-family: "ItalianRevolution";
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+  color: var(--primary500);
+}
 $main-blue: var(--accentA700) !default;
 $main-blue-rgb-015: var(--accent100) !default;
 
