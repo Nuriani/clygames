@@ -47,3 +47,34 @@
  .prensaArre .linea{
   margin-bottom: 1rem;
  }
+
+ .prensaArre  .logoAbout{
+  height: 15vh;
+  margin-bottom: 10px;
+
+}
+.prensaArre .logoAbout img{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.prensaArre .somosDesc {
+  column-count: 2;
+  column-gap: 2rem;
+  text-align: justify;
+}
+
+.prensaArre .somos {
+  padding: 4rem;
+  background-color: var(--primary100);
+  color: var(--primary400);
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.prensaArre .persona-titulo{
+  font-family: "RailroadGothic";
+  font-size: 20px;
+}

@@ -1,0 +1,47 @@
+.juegos {
+  min-height: 100vh;
+}
+
+.juegos .card {
+  padding-top: 1rem;
+   width: 70%;
+   margin: auto;
+   margin-top: 1rem;
+   background-color: #27233D;
+   border-radius: 50px;
+}
+
+.juegos .card .imagenJuego {
+  height: 60vh;
+  margin: auto;
+}
+
+.juegos .card-img-top {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin: auto;
+}
+
+.juegos .card-title {
+  font-family: "RailroadGothic";
+  font-size: 20px;
+  color: var(--primary100);
+}
+
+.juegos .card-text {
+  color: var(--primary100);
+}
+
+.juegos fa-icon {
+  font-size: 45px;
+  color: var(--primary100);
+}
+.juegos fa-icon:hover {
+  color: var(--primary300);
+}
+
