@@ -5,7 +5,7 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>
       <a href="#" [routerLink]="'/home'">
-        <img id="logoNavBar" src="../../../assets/img/Logo_CLYGAMES.png" alt="Logo de CLYGAMES" title="CLYGAMES">
+        <img id="logoNavBar" src="../../../../assets/img/Logo_CLYGAMES_sin_ojos.png" alt="Logo de CLYGAMES" title="CLYGAMES">
       </a>
     </mat-toolbar>
     <mat-nav-list>
@@ -14,7 +14,8 @@
       <a mat-list-item href="#" [routerLink]="'/about'" class="menuComponent">{{'Home.Menu.About' | translate }}</a>
       <a mat-list-item href="#" [routerLink]="'/noticias'" class="menuComponent">{{'Home.Menu.Noticias' | translate }} </a>
       <a mat-list-item href="#" [routerLink]="'/empleo'" class="menuComponent">{{'Home.Menu.Empleo' | translate }} </a>
-      <a mat-list-item href="#" [routerLink]="'/prensa'" class="menuComponent">{{'Home.Menu.Contacto' | translate }} </a>
+      <a mat-list-item href="#" [routerLink]="'/prensa'" class="menuComponent">{{'Home.Menu.Prensa' | translate }} </a>
+      <a mat-list-item href="#" [routerLink]="'/contacto'" class="menuComponent">{{'Home.Menu.Contacto' | translate }} </a>
       <!-- Steam -->
       <a class="p-3" href="https://store.steampowered.com/developer/Clygames" role="button" target="_blank">
         <fa-icon [icon]="faSteam"></fa-icon>
@@ -34,7 +35,7 @@
   <mat-sidenav-content>
     <mat-toolbar color="primary" class="nav-bar">
       <mat-toolbar-row>
-        <mat-label><img id="logoNavBar" src="../../../assets/img/Logo_CLYGAMES.png" alt="Logo de CLYGAMES" title="CLYGAMES"></mat-label>
+        <mat-label><img id="logoNavBar" src="../../../../assets/img/Logo_CLYGAMES_sin_ojos.png" alt="Logo de CLYGAMES" title="CLYGAMES"></mat-label>
       <button
         type="button"
         aria-label="Toggle sidenav"

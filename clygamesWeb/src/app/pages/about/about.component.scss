@@ -1,10 +1,12 @@
-.logoAbout{
+.logoAbout {
   height: 40vh;
   background-color: var(--primary900);
-
 }
-.logoAbout img{
-  height: 100%;
+.logoAbout img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: auto;
 }
@@ -32,6 +34,7 @@
   font-size: 4rem;
   padding-bottom: 2rem;
   letter-spacing: 3px;
+  line-height: 1;
 }
 
 .tituloEquipo {
@@ -76,15 +79,18 @@
   background: linear-gradient(to right, var(--primary600), var(--primary300));
 }
 
+.persona-team-dcha .persona-body {
+  padding-left: 1rem;
+}
+
 .persona-team-izq {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background: linear-gradient(to right, var(--primary300), var(--primary600));
 }
 /* Fin Persona Equipo */
-.mat-drawer-content .mat-sidenav-content{
-  width:100%;
-  overflow-x:hidden;
-  overflow-y:hidden;
-
+.mat-drawer-content .mat-sidenav-content {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }

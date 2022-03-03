@@ -5,6 +5,10 @@
 
 .enProceso img {
   height: 75vh;
+  height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
   display:block;
   margin:auto;
 }
@@ -15,4 +19,5 @@
   padding-bottom: 2rem;
   letter-spacing: 3px;
   color: var(--warn900);
+  line-height: 1;
 }
