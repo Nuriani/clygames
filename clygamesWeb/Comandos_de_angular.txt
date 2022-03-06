@@ -1,0 +1,43 @@
+crear un proyecto
+ng new nombreDelProyecto 
+ng new nombreDelProyecto --skip-install
+
+dentro del proyecto
+yarn install
+
+Creamos un componente
+ng g c nombreComponente
+
+Crear un servicio
+ng g s nombredelservicio
+
+crear Guard
+ng g guard guards/horaAcceso
+
+Instalar bootstrap
+npm install bootstrap jquery @popperjs/core
+
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
+para verificar si tienen instalado el node js
+node -v
+
+
+crear la carpeta node_modules
+npm i
+
+correr servidor
+ng serve --o --port 4100
+
+
+pagina para crear interfaces
+http://json2ts.com/
+
