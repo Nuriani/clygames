@@ -1,5 +1,5 @@
 crear un proyecto
-ng new nombreDelProyecto 
+ng new nombreDelProyecto
 ng new nombreDelProyecto --skip-install
 
 dentro del proyecto
@@ -40,4 +40,6 @@ ng serve --o --port 4100
 
 pagina para crear interfaces
 http://json2ts.com/
+
+ng build (para crear la app build)
 

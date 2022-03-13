@@ -160,12 +160,58 @@
     </div>
   </div>
 
+
+  <div class="row">
+    <div class="col-sm-0 col-xxl-2"></div>
+    <div class="col-sm-12 col-xxl-8">
+      <!-- 16:9 aspect ratio -->
+      <div class="ratio ratio-16x9">
+        <iframe class="embed-responsive-item" [src]="safeUrl" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <div class="col-sm-0 col-xxl-2"></div>
+  </div>
+
   <!-- img -->
   <div class="row">
     <div class="col-md-12">
       <h2 class="pressSeccion espacio text-center">
         {{ 'Prensa.img' | translate }}
       </h2>
+    </div>
+  </div>
+
+  <div class="imagenesPrensa">
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/acolchada.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/alarma.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/conser.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/director.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/doctor.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/jeringa.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/lavanderia.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-3">
+        <img src="../../../../assets/img/imgArre/carta.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
     </div>
   </div>
 
@@ -178,6 +224,14 @@
     </div>
   </div>
 
+  <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <img src="../../../../assets/img/library_logo_transparent.png" class="img-fluid" alt="imagen juego arreUnicornio">
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+
   <!-- clygames -->
   <div class="row">
     <div class="col-md-12">
@@ -189,7 +243,7 @@
   <div class="somos">
     <div class="row">
       <div class="logoAbout">
-        <img src="./../../../assets/img/Logo_CLYGAMES_negativo.png" alt="logo CLYGAMES">
+        <img src="./../../../../assets/img/Logo_CLYGAMES_sin_ojos.png" alt="logo CLYGAMES">
       </div>
       <p class="somosDesc">
         {{ "About.desc" | translate }}
@@ -290,21 +344,21 @@
         </div>
       </div>
 
-    <!-- Contacto -->
-    <div class="row">
-      <div class="col-md-12">
-        <h2 class="pressSeccion espacio text-center">
-          {{ 'Prensa.Contacto' | translate }}
-        </h2>
-      </div>
-    </div>
-
-    <div class="row linea pressCuerpo">
-      <div class="col-md-12">
-        <div class="persona-titulo">Email:</div>
-        <p>info.clygames@gmail.com</p>
+      <!-- Contacto -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="pressSeccion espacio text-center">
+            {{ 'Prensa.Contacto' | translate }}
+          </h2>
+        </div>
       </div>
 
-    </div>
+      <div class="row linea pressCuerpo">
+        <div class="col-md-12">
+          <div class="persona-titulo">Email:</div>
+          <p>info.clygames@gmail.com</p>
+        </div>
 
-  </div>
+      </div>
+
+    </div>

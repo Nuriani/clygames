@@ -1,43 +1,45 @@
 import { Component, OnInit, Pipe, PipeTransform } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { DomSanitizer } from '@angular/platform-browser';
-
-
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 
-
-
 export class HomeComponent implements OnInit {
-
   public url: string;
-  public link: any;
+  public safeUrl: SafeResourceUrl;
   private idioma: string;
 
-  constructor(private translate: TranslateService, private sanitizer: DomSanitizer) {
+  constructor(
+    private translate: TranslateService,
+    private sanitizer: DomSanitizer
+  ) {
+    this.idioma = this.translate.currentLang
+      ? this.translate.currentLang
+      : translate.getDefaultLang();
     this.url = this.crearUrl();
-    this.idioma = this.translate.currentLang ? this.translate.currentLang : translate.getDefaultLang();
-    console.log(this.idioma);
-
-
+    this.safeUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.url);
+    this.translate.onLangChange.subscribe(() => {
+      this.idioma = this.translate.currentLang ? this.translate.currentLang : translate.getDefaultLang();
+      this.ngOnInit();
+    });
   }
 
   ngOnInit(): void {
-
+    this.url = this.crearUrl();
+    this.safeUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.url);
   }
 
-  crearUrl() {
-    if ( this.idioma === "es" ) {
-      this.url = "https://www.youtube.com/embed/fV8GvTlqcug";
-    } else if ( this.idioma === "en" ){
-      this.url = "https://www.youtube.com/embed/2dbaDD46XZ4";
+  crearUrl(): string {
+    if (this.idioma === 'es') {
+      this.url = 'https://www.youtube.com/embed/fV8GvTlqcug';
+    } else if (this.idioma === 'en') {
+      this.url = 'https://www.youtube.com/embed/2dbaDD46XZ4';
     }
 
-    this.link = this.sanitizer.bypassSecurityTrustResourceUrl(this.url)
-    return this.link;
+    return this.url;
   }
 }
