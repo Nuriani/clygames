@@ -32,6 +32,7 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
 import { JuegosComponent } from './pages/juegos/juegos.component';
 import { EmpeloComponent } from './pages/empelo/empelo.component';
 import { PrensaArreComponent } from './pages/prensa/prensa-arre/prensa-arre.component';
+import { ArreUnicornioComponent } from './pages/juegos/arre-unicornio/arre-unicornio.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { PrensaArreComponent } from './pages/prensa/prensa-arre/prensa-arre.comp
     ContactoComponent,
     JuegosComponent,
     EmpeloComponent,
-    PrensaArreComponent
+    PrensaArreComponent,
+    ArreUnicornioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,33 @@
-.juegos {
-  min-height: 100vh;
+.juegos{
+  padding-top: 2rem;
 }
-
 .juegos .card {
   padding-top: 1rem;
-   width: 70%;
-   margin: auto;
-   margin-top: 1rem;
-   background-color: #27233D;
-   border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #27233d;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 3rem;
 }
 
 .juegos .card .imagenJuego {
   height: 60vh;
   margin: auto;
+}
+
+.juegos .tituloSeccion {
+  font-family: "ItalianRevolution";
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+  color: var(--primary500);
+  line-height: 1;
+}
+
+.juegos .tituloSeccion.espacio {
+  margin-top: 4rem;
 }
 
 .juegos .card-img-top {
@@ -44,4 +58,3 @@
 .juegos fa-icon:hover {
   color: var(--primary300);
 }
-

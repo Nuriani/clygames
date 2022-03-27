@@ -1,0 +1,100 @@
+.juegoArre {
+  min-height: 100vh;
+  padding: 3rem;
+  background-image: linear-gradient(var(--primary50), transparent);
+}
+
+.juegoArre .tituloSeccion {
+  font-family: "ItalianRevolution";
+  font-size: 5rem;
+  padding-bottom: 2rem;
+  letter-spacing: 3px;
+  color: var(--primary500);
+  line-height: 1;
+}
+
+.juegoArre .tituloSeccion.espacio {
+  margin-top: 4rem;
+}
+
+.juegoArre .pressTitulo {
+  font-family: "RailroadGothic";
+  font-size: 20px;
+  color: var(--primary400);
+}
+
+.juegoArre .pressCuerpo {
+  font-weight: 600;
+  color: var(--primary400);
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
+.juegoArre .pressCuerpo a{
+  font-weight: 600;
+  color: var(--primaryA700);
+  text-decoration: none;
+}
+
+.juegoArre .pressCuerpo a:hover{
+  font-weight: 600;
+  color: var(--primaryA100);
+}
+
+.juegoArre .pressCuerpo ul li{
+  line-height: 1.7rem;
+}
+ .juegoArre .linea{
+  margin-bottom: 1rem;
+ }
+
+ .juegoArre  .logoAbout{
+  height: 15vh;
+  margin-bottom: 10px;
+
+}
+.juegoArre .logoAbout img{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.juegoArre .somosDesc {
+  column-count: 2;
+  column-gap: 2rem;
+  text-align: justify;
+}
+
+.juegoArre .somos {
+  padding: 4rem;
+  background-color: var(--primary100);
+  color: var(--primary400);
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+.juegoArre .persona-titulo{
+  font-family: "RailroadGothic";
+  font-size: 20px;
+}
+
+.juegoArre .carousel-inner {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.juegoArre .carousel-inner img{
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.juegoArre .centrarVertical {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
