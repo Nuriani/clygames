@@ -1,6 +1,10 @@
+.aboutPage{
+  background-image: linear-gradient(var(--primary50), var(--primary300));
+}
+
 .logoAbout {
   height: 40vh;
-  background-color: var(--primary900);
+  /*background-color: var(--primary900);*/
 }
 .logoAbout img {
   height: auto;
@@ -25,9 +29,9 @@
   margin: auto;
 }
 
-.contenedorAboutUs {
+/*.contenedorAboutUs {
   background-image: linear-gradient(var(--primary900), transparent);
-}
+}*/
 .somosTitulo,
 .tituloEquipo {
   font-family: "ItalianRevolution";
@@ -40,9 +44,9 @@
 .tituloEquipo {
   padding-top: 5rem;
   padding-bottom: 3rem;
-  color: var(--primary500);
+  color: var(--primary100);
   margin: 0;
-  background: linear-gradient(var(--primary300), var(--primary100));
+  background: linear-gradient(var(--primary300), var(--primary600));
 }
 
 .somosDesc {

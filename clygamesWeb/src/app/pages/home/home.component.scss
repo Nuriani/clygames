@@ -1,9 +1,21 @@
 .home {
   min-height: 100vh;
+  padding-top: 3rem;
+  background-image: linear-gradient(var(--primary50), transparent);
 }
 
 .home .videoArre{
   padding-top: 3rem;
+}
+
+.home .pressTitulo {
+    font-family: "ItalianRevolution";
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    letter-spacing: 3px;
+    color: var(--primary500);
+    line-height: 1;
 }
 
 
